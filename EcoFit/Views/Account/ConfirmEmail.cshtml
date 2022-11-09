@@ -2,9 +2,30 @@
     ViewBag.Title = "Confirmar correo electrónico";
 }
 
-<h2>@ViewBag.Title.</h2>
-<div>
-    <p>
-        Gracias por confirmar su correo electrónico. @Html.ActionLink("Haga clic aquí para iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
-    </p>
-</div>
+<!--PARA CUALQUIER PAGINA AGREGAR EL HEAD Y EL BODY-->
+<!--NO TOMA EL ESTILO-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icono-eco.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/Content/style.css">
+</head>
+
+<body>
+
+    <div id="Container3">
+
+        <h2>@ViewBag.Title.</h2>
+        <div>
+            <p>
+                Gracias por confirmar su correo electrónico. @Html.ActionLink("Haga clic aquí para iniciar sesión", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+            </p>
+        </div>
+
+    </div>
+</body>

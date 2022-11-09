@@ -31,7 +31,7 @@
 }
 
 .cards .card {
-    background: #26a893;
+    background: #26a893; /*Verde azulado*/
     display: flex;
     width: 46%;
     height: 200px;

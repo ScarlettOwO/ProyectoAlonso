@@ -1,9 +1,13 @@
 ﻿@import url(About.css);
 @import url(login.css);
 
+/*TODO DEL INDEX Y COSAS GENERALES*/
+
 * {
     font-family: 'open sans';
 }
+
+/*LO SAQUE DE UNA PAGINA*/
 
 body {
     background: #43C6AC; /* fallback for old browsers */
@@ -12,6 +16,8 @@ body {
     height: 100%;
 }
 
+/*CONTENEDOR GENERICO TUYO*/
+
 .container
 {
     background: white;
@@ -19,6 +25,7 @@ body {
     border-radius: 30px;
 }
 
+/*NO LO USES COMO CLASE*/
 .contenedor {
     padding: 60px 0;
     width: 90%;
@@ -27,12 +34,21 @@ body {
     overflow: hidden;
 }
 
-/*CONTENEDOR ESPECIAL PARA LOGIN*/
+/*CONTENEDOR ESPECIAL PARA LOGIN O DE SU TAMAño*/
 #Container2 {
     background: white;
     padding: 30px;
     border-radius: 30px;
-    height: 545px;
+    height: 550px;
+}
+
+/*CONTENEDOR ESPECIAL PARA MENSAJE DE CONTRASEña O DE SU TAMAño*/
+
+#Container3 {
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    height: 610px;
 }
 
 
