@@ -1,22 +1,44 @@
 ﻿@import url(About.css);
+@import url(login.css);
+
+* {
+    font-family: 'open sans';
+}
 
 body {
-    font-family: 'open sans';
+    background: #43C6AC; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F8FFAE, #43C6AC); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+}
+
+.container
+{
     background: white;
+    padding: 30px;
+    border-radius: 30px;
 }
 
 .contenedor {
     padding: 60px 0;
     width: 90%;
-    max-width: 1000px;
+    max-width: 950px;
     margin: auto;
     overflow: hidden;
 }
 
-/*TITULOS y OTROS*/
+/*CONTENEDOR ESPECIAL PARA LOGIN*/
+#Container2 {
+    background: white;
+    padding: 30px;
+    border-radius: 30px;
+    height: 545px;
+}
 
+
+/*TITULOS y OTROS*/
 .titulo {
-    color: #81d324;
+    color: #81d324; /*VERDE*/
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -25,7 +47,7 @@ body {
 /* BOTONES*/
 
 .btn {
-    background: #8AB861;
+    background: #8AB861; /*VERDE*/
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -56,17 +78,17 @@ main .sobre-nosotros {
     margin-bottom: 15px;
 }
 
-    .contenido-textos h3 span {
-        background: #81d324;
-        color: white;
-        border-radius: 50%;
-        display: inline-block;
-        text-align: center;
-        width: 30px;
-        height: 30px;
-        padding: 2px;
-        margin-right: 5px;
-    }
+.contenido-textos h3 span {
+    background: #81d324; /*VERDE*/
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    margin-right: 5px;
+}
 
 .contenido-textos span {
     font-size: 18px;
@@ -93,7 +115,7 @@ main .sobre-nosotros {
 /* Nuestros servicios */
 
 .about-services {
-    background: #f2f2f2;
+    background: #f2f2f2; /*GRIS*/
     padding-bottom: 30px;
 }
 
@@ -122,7 +144,7 @@ main .sobre-nosotros {
     text-align: justify;
 }
 
-/*FOOTER*/
+/*FOOTER USADO PARA CONTACTOS EN ABOUT*/
 
 
 .contenedor-footer {

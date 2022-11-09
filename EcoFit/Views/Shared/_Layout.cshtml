@@ -49,9 +49,11 @@
 
                         <ul class="nav nav-pills">
 
-                            <li class="active"><a   style="border-radius:initial;" href="#">Página Principal</a></li>
-                            <li><a   style="border-radius:initial;" href="#">Ubicación</a></li>
-                            <li><a   style="border-radius:initial;" href="#">Sobre Nosotros</a></li>
+                            <li class="active"><a style="border-radius:initial;" href="/Home/index">Página Principal</a></li>
+                            
+                            <li><a style="border-radius:initial;" href="/Home/About">Sobre Nosotros</a></li>
+                            <li style="float:right;"><a style="border-radius:initial;" href="/Account/Login">Iniciar Sesion</a></li>
+                            <li style="float:right;"><a style="border-radius:initial;" href="/Account/Register">Registro</a></li>
 
                         </ul>
                     </div>
@@ -63,7 +65,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - Mi aplicación ASP.NET</p>
+            <p>&copy; @DateTime.Now.Year - EcoFit </p>
         </footer>
     </div>
 

@@ -1,4 +1,6 @@
-﻿.acciones-empresa {
+﻿/*QUE HACEMOS*/
+
+.acciones-empresa {
     width: 90%;
     margin: auto;
     margin-top: 20px;
@@ -7,6 +9,8 @@
 .acciones-empresa p {
     margin-top: 20px;
 }
+
+/*NUESTROS CLIENTES*/
 
 .principales-clientes {
     width: 90%;
@@ -18,26 +22,6 @@
     margin-top: 20px;
 }
 
-.mapa-oficina {
-    width: 90%;
-    margin: auto;
-    margin-top: 20px;
-}
-
-.mapa-oficina p {
-    margin-top: 20px;
-}
-
-.mapa {
-    width: 60%;
-    height: 400px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    background: black;
-    color: white;
-}
 
 /*CLIENTES*/
 
