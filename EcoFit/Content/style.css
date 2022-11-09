@@ -1,0 +1,151 @@
+﻿@import url(About.css);
+
+body {
+    font-family: 'open sans';
+    background: white;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*TITULOS y OTROS*/
+
+.titulo {
+    color: #81d324;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* BOTONES*/
+
+.btn {
+    background: #8AB861;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/*SOBRE NOSOTROS*/
+
+main .sobre-nosotros {
+    padding: 30px 0 60px 0;
+    margin-bottom: 20px;
+}
+
+.contenedor-sobre-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us {
+    width: 48%;
+}
+
+.sobre-nosotros .contenedor-textos {
+    width: 48%;
+}
+
+.contenido-textos h3 {
+    margin-bottom: 15px;
+}
+
+    .contenido-textos h3 span {
+        background: #81d324;
+        color: white;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        margin-right: 5px;
+    }
+
+.contenido-textos span {
+    font-size: 18px;
+}
+
+.contenido-textos p {
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.cont-productos {
+    display: flex;
+    margin: auto;
+    justify-content:center;
+}
+
+.card
+{
+    padding: 20px;
+    
+}
+
+/* Nuestros servicios */
+
+.about-services {
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+.servicio-cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind {
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img {
+    width: 90%;
+    height: 200px;
+}
+
+.servicio-ind h3 {
+    margin: 10px 0;
+}
+
+.servicio-ind p {
+    font-weight: 300;
+    text-align: justify;
+}
+
+/*FOOTER*/
+
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo {
+    text-align: center;
+}
+
+    .content-foo h4 {
+        color: black;
+        border-bottom: 3px solid #26a893;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .content-foo p {
+        color: black;
+    }
+

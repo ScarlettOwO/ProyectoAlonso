@@ -1,0 +1,148 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icono-eco.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/Content/style.css">
+</head>
+
+<body>
+
+    <div id="themeSlider" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#themeSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#themeSlider" data-slide-to="1"></li>
+            <li data-target="#themeSlider" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="imgOverlay"></div>
+                <img style="height:320px; width:100%" src="../Imagenes/background-2.jpg" alt="First slide">
+                <div class="carousel-caption">
+                    <h3>¡Recicla desde tu casa!</h3>
+                    <p>Cotiza con nosotros el manejo de tu chatarra</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="imgOverlay"></div>
+                <img style="height:320px; width:100%" src="../Imagenes/background-6.jpg" alt="Second slide">
+                <div class="carousel-caption">
+                    <h3>¡Agenda tu retiro!</h3>
+                    <p>Escoge una fecha y bloque horario para recoger tus residuos</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="imgOverlay"></div>
+                <img style="height:320px; width:100%" src="../Imagenes/background-4.jpg" alt="Third slide">
+                <div class="carousel-caption">
+                    <h3>¡Cotiza con nosotros!</h3>
+                    <p>Disponemos de gran cantidad de material reciclado para Empresas</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#themeSlider" data-slide="prev">
+            <span class="fa fa-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#themeSlider" data-slide="next">
+            <span class="fa fa-chevron-right"></span>
+        </a>
+
+    </div>
+
+    <section class="contenedor sobre-nosotros">
+        <h2 class="titulo">Sobre nosotros</h2>
+        <div class="contenedor-sobre-nosotros">
+            <img src="~/Imagenes/ilustracion1.jpg" alt="" class="imagen-about-as">
+            <div class="contenido-textos">
+                <h3>
+                    <span>1</span>
+                    Los mejores productos
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis eos perferendis laudantium voluptas obcaecati. Consectetur corporis error harum praesentium non, numquam dolorum tempore? Similique, dolore rerum. Unde, maxime provident!</p>
+                <h3>
+                    <span>2</span>
+                    Pymes asociadas
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus blanditiis eos perferendis laudantium voluptas obcaecati. Consectetur corporis error harum praesentium non, numquam dolorum tempore? Similique, dolore rerum. Unde, maxime provident!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="productos">
+        <h2 class="titulo">Nuestro producto</h2>
+
+        <div class="cont-productos">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="~/Imagenes/producto1.jpg" alt="Card image cap" style="width:180px; padding: 10px;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="~/Imagenes/producto1.jpg" alt="Card image cap" style="width: 180px; padding: 10px;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="~/Imagenes/producto1.jpg" alt="Card image cap" style="width: 180px; padding: 10px;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="~/Imagenes/producto1.jpg" alt="Card image cap" style="width: 180px; padding: 10px;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn">Saber más</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="~/Imagenes/producto1.jpg" alt="Card image cap" style="width: 180px; padding: 10px;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn">Saber más</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about-services">
+        <div class="contenedor">
+            <h2 class="titulo">Nuestros servicios</h2>
+            <div class="servicio-cont">
+                <div class="servicio-ind">
+                    <img src="~/Imagenes/ilustracion2.png" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, soluta.</p>
+                </div>
+                <div class="servicio-ind">
+                    <img src="~/Imagenes/ilustracion3.png" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, soluta.</p>
+                </div>
+                <div class="servicio-ind">
+                    <img src="~/Imagenes/ilustracion4.png" alt="">
+                    <h3>Name</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis, soluta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
